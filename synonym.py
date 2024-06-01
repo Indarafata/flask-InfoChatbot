@@ -1,0 +1,16 @@
+list_synonyms = {
+    "durasi": ["lama"],
+    "dilaksanakan": ["dilakukan"],
+    "dilakukan": ["dilaksanakan"],
+    "kondisi": ["keadaan"],
+    "keadaan": ["kondisi"],
+    "jabatan": ["posisi"],
+    "posisi": ["jabatan"],
+    "standar": ["umum"],
+    "dipantau": ["diawasi"],
+    "penggunaan": ["pemakaian"],
+    "pemakaian": ["penggunaan"],
+    "ancaman": ["bahaya"],
+    "total": ["keseluruhan"],
+    "keseluruhan": ["total"],
+}
