@@ -13,4 +13,13 @@ list_synonyms = {
     "ancaman": ["bahaya"],
     "total": ["keseluruhan"],
     "keseluruhan": ["total"],
+    "tugas": ["peran"],
+    "melindungi": ["menjaga"],
+    "kestabilan": ["stabilitas"],
+    "opini": ["pandangan"],
+    "bantuan ": ["dukungan"],
+    "dana": ["anggaran"],
+    "menangani": ["penanganan"],
+    "syarat": ["persyaratan"],
+    "prosedur": ["proses"],
 }

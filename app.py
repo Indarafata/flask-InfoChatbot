@@ -14,8 +14,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 from scipy.sparse import vstack
 from stopword import custom_stopwords
 from synonym import list_synonyms
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Inisialisasi Dataset
 dataset = pd.read_csv('dataset/qna_komcad.csv')
@@ -172,4 +174,4 @@ def chatbot():
         return jsonify({'message': 'Invalid input format. Include "question" in the request.'})
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0', port=8000)
